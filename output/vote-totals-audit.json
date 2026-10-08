@@ -1,0 +1,602 @@
+{
+  "years": {
+    "2014": {
+      "county": {
+        "totalVotes": 31932,
+        "repVotes": 20527
+      },
+      "precinct_count": 42,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            16,
+            18,
+            19,
+            21,
+            35
+          ],
+          "totalVotes": 3634,
+          "repVotes": 2314
+        },
+        "Kalispell": {
+          "precincts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            37,
+            41,
+            44
+          ],
+          "totalVotes": 13379,
+          "repVotes": 8636
+        },
+        "Whitefish": {
+          "precincts": [
+            20,
+            45,
+            47,
+            48,
+            49
+          ],
+          "totalVotes": 4019,
+          "repVotes": 2023
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 21032,
+        "repVotes": 12973
+      },
+      "unassigned": {
+        "precincts": [
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          23,
+          24,
+          26,
+          36,
+          38,
+          39,
+          42,
+          43,
+          50,
+          89
+        ],
+        "totalVotes": 10900,
+        "repVotes": 7554
+      },
+      "shared_precincts": {},
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 0,
+        "repVotes": 0
+      },
+      "source_file": "2014-gen-results-by-precinct.csv",
+      "mapping_file": "flathead-2014-2023-precincts.txt"
+    },
+    "2016": {
+      "county": {
+        "totalVotes": 47441,
+        "repVotes": 30768
+      },
+      "precinct_count": 42,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            16,
+            18,
+            19,
+            21,
+            35
+          ],
+          "totalVotes": 5582,
+          "repVotes": 3598
+        },
+        "Kalispell": {
+          "precincts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            37,
+            41,
+            44
+          ],
+          "totalVotes": 19834,
+          "repVotes": 12958
+        },
+        "Whitefish": {
+          "precincts": [
+            20,
+            45,
+            47,
+            48,
+            49
+          ],
+          "totalVotes": 5957,
+          "repVotes": 2857
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 31373,
+        "repVotes": 19413
+      },
+      "unassigned": {
+        "precincts": [
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          23,
+          24,
+          26,
+          36,
+          38,
+          39,
+          42,
+          43,
+          50,
+          89
+        ],
+        "totalVotes": 16068,
+        "repVotes": 11355
+      },
+      "shared_precincts": {},
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 0,
+        "repVotes": 0
+      },
+      "source_file": "2016-gen-Results-By-precinct.csv",
+      "mapping_file": "flathead-2014-2023-precincts.txt"
+    },
+    "2018": {
+      "county": {
+        "totalVotes": 47778,
+        "repVotes": 28450
+      },
+      "precinct_count": 42,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            16,
+            18,
+            19,
+            21,
+            35
+          ],
+          "totalVotes": 5619,
+          "repVotes": 3368
+        },
+        "Kalispell": {
+          "precincts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            37,
+            41,
+            44
+          ],
+          "totalVotes": 19756,
+          "repVotes": 11801
+        },
+        "Whitefish": {
+          "precincts": [
+            20,
+            45,
+            47,
+            48,
+            49
+          ],
+          "totalVotes": 6226,
+          "repVotes": 2377
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 31601,
+        "repVotes": 17546
+      },
+      "unassigned": {
+        "precincts": [
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          23,
+          24,
+          26,
+          36,
+          38,
+          39,
+          42,
+          43,
+          50,
+          89
+        ],
+        "totalVotes": 16177,
+        "repVotes": 10904
+      },
+      "shared_precincts": {},
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 0,
+        "repVotes": 0
+      },
+      "source_file": "2018-gen-results-by-precinct.csv",
+      "mapping_file": "flathead-2014-2023-precincts.txt"
+    },
+    "2020": {
+      "county": {
+        "totalVotes": 59697,
+        "repVotes": 38426
+      },
+      "precinct_count": 42,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            16,
+            18,
+            19,
+            21,
+            35
+          ],
+          "totalVotes": 7248,
+          "repVotes": 4698
+        },
+        "Kalispell": {
+          "precincts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            37,
+            41,
+            44
+          ],
+          "totalVotes": 24738,
+          "repVotes": 16173
+        },
+        "Whitefish": {
+          "precincts": [
+            20,
+            45,
+            47,
+            48,
+            49
+          ],
+          "totalVotes": 7604,
+          "repVotes": 3145
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 39590,
+        "repVotes": 24016
+      },
+      "unassigned": {
+        "precincts": [
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          23,
+          24,
+          26,
+          36,
+          38,
+          39,
+          42,
+          43,
+          50,
+          89
+        ],
+        "totalVotes": 20107,
+        "repVotes": 14410
+      },
+      "shared_precincts": {},
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 0,
+        "repVotes": 0
+      },
+      "source_file": "2020-gen-results-by-precinct.csv",
+      "mapping_file": "flathead-2014-2023-precincts.txt"
+    },
+    "2022": {
+      "county": {
+        "totalVotes": 47725,
+        "repVotes": 29290
+      },
+      "precinct_count": 42,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            16,
+            18,
+            19,
+            21,
+            35
+          ],
+          "totalVotes": 5589,
+          "repVotes": 3449
+        },
+        "Kalispell": {
+          "precincts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            25,
+            29,
+            31,
+            32,
+            33,
+            34,
+            37,
+            41,
+            44
+          ],
+          "totalVotes": 19464,
+          "repVotes": 12072
+        },
+        "Whitefish": {
+          "precincts": [
+            20,
+            45,
+            47,
+            48,
+            49
+          ],
+          "totalVotes": 6104,
+          "repVotes": 2365
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 31157,
+        "repVotes": 17886
+      },
+      "unassigned": {
+        "precincts": [
+          8,
+          11,
+          13,
+          14,
+          15,
+          17,
+          23,
+          24,
+          26,
+          36,
+          38,
+          39,
+          42,
+          43,
+          50,
+          89
+        ],
+        "totalVotes": 16568,
+        "repVotes": 11404
+      },
+      "shared_precincts": {},
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 0,
+        "repVotes": 0
+      },
+      "source_file": "2022-gen-results-by-precinct.csv",
+      "mapping_file": "flathead-2014-2023-precincts.txt"
+    },
+    "2024": {
+      "county": {
+        "totalVotes": 63246,
+        "repVotes": 40681
+      },
+      "precinct_count": 56,
+      "municipalities": {
+        "Columbia Falls": {
+          "precincts": [
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18
+          ],
+          "totalVotes": 8937,
+          "repVotes": 5896
+        },
+        "Kalispell": {
+          "precincts": [
+            20,
+            21,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            34,
+            36,
+            37,
+            42,
+            43,
+            44,
+            45,
+            48,
+            49
+          ],
+          "totalVotes": 22717,
+          "repVotes": 14615
+        },
+        "Whitefish": {
+          "precincts": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            12,
+            13
+          ],
+          "totalVotes": 8094,
+          "repVotes": 3576
+        }
+      },
+      "unique_assigned": {
+        "totalVotes": 38474,
+        "repVotes": 23312
+      },
+      "unassigned": {
+        "precincts": [
+          1,
+          2,
+          7,
+          14,
+          15,
+          19,
+          22,
+          32,
+          33,
+          35,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "totalVotes": 24772,
+        "repVotes": 17369
+      },
+      "shared_precincts": {
+        "8": [
+          "Columbia Falls",
+          "Whitefish"
+        ]
+      },
+      "extra_votes_from_shared_municipality_assignments": {
+        "totalVotes": 1274,
+        "repVotes": 775
+      },
+      "source_file": "2024-gen-results-by-precinct.csv",
+      "mapping_file": "flathead-2024-precincts.txt"
+    }
+  },
+  "generated_files": [
+    "columbia-falls.csv",
+    "kalispell.csv",
+    "precinct-01.csv",
+    "precinct-02.csv",
+    "precinct-03.csv",
+    "precinct-04.csv",
+    "precinct-05.csv",
+    "precinct-06.csv",
+    "precinct-07.csv",
+    "precinct-08.csv",
+    "precinct-09.csv",
+    "precinct-10.csv",
+    "precinct-11.csv",
+    "precinct-12.csv",
+    "precinct-13.csv",
+    "precinct-14.csv",
+    "precinct-15.csv",
+    "precinct-16.csv",
+    "precinct-17.csv",
+    "precinct-18.csv",
+    "precinct-19.csv",
+    "precinct-20.csv",
+    "precinct-21.csv",
+    "precinct-22.csv",
+    "precinct-23.csv",
+    "precinct-24.csv",
+    "precinct-25.csv",
+    "precinct-26.csv",
+    "precinct-27.csv",
+    "precinct-28.csv",
+    "precinct-29.csv",
+    "precinct-30.csv",
+    "precinct-31.csv",
+    "precinct-32.csv",
+    "precinct-33.csv",
+    "precinct-34.csv",
+    "precinct-35.csv",
+    "precinct-36.csv",
+    "precinct-37.csv",
+    "precinct-38.csv",
+    "precinct-39.csv",
+    "precinct-40.csv",
+    "precinct-41.csv",
+    "precinct-42.csv",
+    "precinct-43.csv",
+    "precinct-44.csv",
+    "precinct-45.csv",
+    "precinct-46.csv",
+    "precinct-47.csv",
+    "precinct-48.csv",
+    "precinct-49.csv",
+    "precinct-50.csv",
+    "precinct-51.csv",
+    "precinct-52.csv",
+    "precinct-53.csv",
+    "precinct-54.csv",
+    "precinct-55.csv",
+    "precinct-56.csv",
+    "precinct-89.csv",
+    "whitefish.csv"
+  ]
+}
