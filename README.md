@@ -162,3 +162,42 @@ newer precincts overlapping those areas may have incomplete numbered coverage.
 The older geometry represents the supplied 2021 shapefile, used as the proxy
 for the 2014–2023 period. These scores measure land area, not voters or votes;
 using an analog does not establish a geographically identical electorate.
+
+## Exploratory midterm comparisons and combined precincts
+
+```sh
+python3 analyze-precinct-comparisons.py
+```
+
+This saves seven candidate geographic comparisons in
+`output/precinct-comparisons/`, including old 24+26 versus new 01+35 and old 07
+versus new 15+31. The candidate list is explicit in the script and was chosen
+from spatial overlaps, not vote changes. It is exploratory, not an exhaustive
+search or a finding that any match is sufficiently comparable for publication.
+Some candidates overlap with others; they are alternatives and must not be
+treated as independent units or summed together.
+
+`candidate-geography.csv` reports both coverage percentages, IoU, square
+kilometers added/removed, and municipal intersection percentages.
+`candidate-votes.csv` reports the complete six-election series for each group.
+`candidate-vote-changes.csv` compares 2016→2018 and 2020→2022 (presidential to
+midterm), 2020→2024 (presidential to presidential), and 2022→2024 (midterm to
+presidential). No votes are apportioned by area: whole precinct totals are
+summed. Each group's GeoJSON shows the two combined footprints and highlights
+the older-only and newer-only areas for review of populated boundary changes.
+
+`older-precinct-midterm-changes.csv` compares all 42 older precincts within the
+older numbering scheme. `municipality-association-midterm-changes.csv` compares
+the county, precincts included in the municipality lists, and the remainder.
+Association with those lists is not a Census urban/rural classification, and
+municipal area percentages do not describe where the voters live.
+
+Change percentages use `(later / earlier - 1) * 100`. A negative
+`rep_minus_total_change_pp` means REP candidate votes changed less favorably
+than all-candidate votes. `rep_share_change_pp` is the percentage-point change
+in REP's share of the selected U.S. House vote. These are descriptive candidate
+vote changes, not estimates of turnout among registered Republican voters.
+Candidates, party switching, population growth, and boundary changes can also
+affect the results. The old 2021 shapefile is only a proxy for boundaries in
+earlier elections; equal precinct numbers alone do not verify stable geography.
+2024 is a presidential-year benchmark, not an additional midterm observation.
